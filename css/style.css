@@ -104,14 +104,14 @@ body {
     }
 
     #video {
-        width: 450;
-        height: 205;
+        width: px;
+        height: 135px;
     }
 
     #pricing-container {
         margin: 20px auto;
         background-color: rgba(0, 0, 0, .2);
-        width: 90%;
+        width: 100%;
         text-align: center;
         padding: 10px;
     }
@@ -132,12 +132,16 @@ body {
         margin-bottom: 10px;
         text-align: center;
         padding: 10px;
-        font-size: 25px;
+        font-size: 18px;
     }
 
     .cookie h3 {
         background-color: rgba(0, 0, 0, .2);
-        padding: 45px;
+        padding: 10px;
+    }
+
+    .cookie button {
+        width: 20%;
     }
 
     footer {
@@ -231,7 +235,12 @@ body {
         padding: 30px;
     }
 
-    .cookie h3 {
-        height: 200px;
+    .cookie button {
+        width: auto;
     }
+
+    .cookie h3 {
+        height: 100px;
+    }
+
 }
